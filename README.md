@@ -22,3 +22,6 @@ The detection based on two stages is also more efficient. Binary problems are ea
 In an attempt to easen the implementation and testing of the Transformer models that the second part of HiMIDS are based around, the Pytorch framework has been used. Another library, SimpleTransformers, is used as well, as it is designed to easily use Transformers provided by HuggingFace with PyTorch code.
 
 Lastly, RandomForest is not a deep learning algorithm, and thus it cannot be implemented by using PyTorch. However, since it is being used, it will instead be implemented using scikit-learn, as it is compatible with PyTorch tensors and makes the code considerably simpler. 
+
+### User manual
+To use the algorithm, you must download all the source code and set it onto the same file. To execute it, you only need to execute "python HiMIDS.py". Further instructions will be given on the command line.
