@@ -1,10 +1,10 @@
 # HiMIDS
-###Introduction
+### Introduction
 This is the repository for the Hierarchical Model for Intrusion Detection Systems (HiMDIDS). It includes the source code for the model, as well as the pre-processed datasets used to train it.
 Datasets can be found in the folder of the same name.
 Source code can be found in the folder "source".
 
-###HiMIDS
+### HiMIDS
 Cybersecurity mechanisms must be improved in order to keep up with the amount of new attacks and specific exploits that keep appearing as technology develops. Since classic paradigms are proven to be insufficient when it comes to the detection of newer attacks, making use of newer technologies, such as deep learning, to improve the scalability and functionality of previous mechanisms will be key to defend from attacks.
 
 In order to be able to detect attacks in a more efficient manner, a hierarchical model is proposed. By using this method, the model is able to detect whether a given system is under attack, moreover discriminating with great accuracy the specific family said attack belongs to.
@@ -19,7 +19,7 @@ The HiMIDS algorithm is novelty when it comes to the monitoring of dangerous beh
 
 The detection based on two stages is also more efficient. Binary problems are easier to solve, and as such, take less time. As the first stage consists on detecting whether a connection is benign or malicious, the model only needs to continue running if the traffic is classified as malicious, which makes it so that it is more efficient and less energy-consuming.
 
-###Implementation
+### Implementation
 In an attempt to easen the implementation and testing of the Transformer models that the second part of HiMIDS are based around, the Pytorch framework has been used. Another library, SimpleTransformers, is used as well, as it is designed to easily use Transformers provided by HuggingFace with PyTorch code.
 
 Lastly, RandomForest is not a deep learning algorithm, and thus it cannot be implemented by using PyTorch. However, since it is being used, it will instead be implemented using scikit-learn, as it is compatible with PyTorch tensors and makes the code considerably simpler. 
