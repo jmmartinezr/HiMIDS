@@ -3,6 +3,9 @@
 This is the repository for the Hierarchical Model for Intrusion Detection Systems (HiMDIDS). It includes the source code for the model, as well as the pre-processed datasets used to train it.
 Source code can be found in the folder "source".
 
+Models are not uploaded onto github due to the weight of the files. They can be found in the following link: https://drive.google.com/drive/folders/1uDe_GNZM345mkA4I3off3HsbGAoLmQkD?usp=sharing
+The same thing happens with the pre-processed datasets, which can be found in the following link: https://drive.google.com/drive/folders/1Dmrd2LUvoX3LFeewlsOqObVrXAMJgHG8?usp=sharing
+
 ### HiMIDS
 Cybersecurity mechanisms must be improved in order to keep up with the amount of new attacks and specific exploits that keep appearing as technology develops. Since classic paradigms are proven to be insufficient when it comes to the detection of newer attacks, making use of newer technologies, such as deep learning, to improve the scalability and functionality of previous mechanisms will be key to defend from attacks.
 
