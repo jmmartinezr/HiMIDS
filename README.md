@@ -1,7 +1,6 @@
 # HiMIDS
 ### Introduction
 This is the repository for the Hierarchical Model for Intrusion Detection Systems (HiMDIDS). It includes the source code for the model, as well as the pre-processed datasets used to train it.
-Datasets can be found in the folder of the same name.
 Source code can be found in the folder "source".
 
 ### HiMIDS
